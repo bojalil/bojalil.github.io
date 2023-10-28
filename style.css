@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body { 
+  background-color: black;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left:  auto; 
+  max-width: 720px;
+
+  padding-right: 10px; 
+  padding-left:  10px; 
+}
+
+/*background-image:url('./assets/backgroung.jpg');*/
+
+.background-image {
+    background-image:url('./assets/0backgroung.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+  .logo-div {
+    text-align: center;
+    background-color: black;
+  }
+
+  .logo-div img {
+    width: 50%;
+    /*height: auto;*/
+    margin-top: 30px;
+  }
+
+  #text {
+    text-shadow: 1px 1px 2px white;
+  }
+
+
+  #title {
+    color: antiquewhite;
+    margin: 10px;
+  }
+
+  #title1 {
+    color: rgba(227, 107, 62, 1);
+    padding-top: 30px;
+  }
+
+  #title2 {
+    color: rgba(64, 199, 0, 1);
+    padding-top: 4px;
+    font-size: 40px;
+  }
+
+  #title3 {
+    color: rgba(228, 41, 184, 1);
+    padding-top: 10px;
+  }
+
+  #title4 {
+    color: rgba(64, 199, 0, 1);
+    padding-top: 4px;
+  }
+
+  #title5 {
+    color: rgba(64, 199, 0, 1);
+    padding-top: 30px;
+  }
+
+  #title6 {
+    color: rgba(64, 199, 0, 1);
+    padding-top: 4px;
+  }
+
+  #title7 {
+    color: rgba(255, 236, 3, 1);
+    padding-top: 30px;
+    font-size: 32px;
+  }
+
+  #title8 {
+    color: rgba(64, 199, 0, 1);
+    padding-top: 10px;
+    padding-bottom: 16px;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 32px;
+  }
+
+  #title9 {
+    color: rgba(255, 236, 3, 1);;
+    padding-top: 18px;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 32px;
+  }
+
+
+
+  #pomos {
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+  }
+
+/* Imagenes de servicios*/
+  .servicios {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .container {
+    width: 200px;
+    position: relative;
+  }
+
+  .container img {
+    width: 100%;
+    min-width: 200px;
+  }
+
+  .content1 {
+    background-color: rgba(64, 199, 0, 1);
+    position: absolute;
+    top: 70%;
+    left: 0;
+    text-align: justify;
+    height: 30%;
+    width: 100%;
+    color: #FFFFFF;
+  }
+
+  .content2 {
+    background-color: rgba(227, 107, 62, 1);
+    position: absolute;
+    top: 70%;
+    left: 0;
+    text-align: justify;
+    height: 30%;
+    width: 100%;
+    color: #FFFFFF;
+  }
+
+  .content1, .content2, h3 {
+    text-align: center;
+    text-shadow: 1px 1px 2px #FF15DA;
+    padding: 5px;
+    border-bottom: 1px solid salmon;
+  }
+
+  .content1, .content2, p {
+    padding: 5px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #FF15DA;
+  }
+
+
+  #pulseras {
+    background-color: rgba(227, 107, 62, 1);
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .my-button {
+    padding: 30px 120px;
+    background-color: #FF15DA;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+  }
+
+  .my-button a {
+    text-decoration: none;
+  }
+
+  .my-button h2 {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+
+
+
+/*
+
+  footer {
+
+    background-color: #FFE7DF;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+}
+
+.my-text-1 {
+    color:black;
+    margin-top: 40px;
+}
+.my-text-2 {
+    color:orange;
+    margin-top: 10px;
+}
+
+
+
+.my-button {
+    padding: 30px 120px;
+    background-color: #FF15DA;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+
+  .my-button a {
+    color: white;
+    font-size:xx-large;
+  }
+
+
+  .my-button:hover {
+    background-color: #FF80E8;
+  }
+  .my-button:active {
+    background-color: #FF80E8;
+  }
+
+
+
+
+
+
+
+
+*/
